@@ -15,7 +15,7 @@ public class Conexion {
 
             
             this.connection = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/app_cac_proyecto_final",
+                "jdbc:mysql://localhost:3306/proyecto_app",
                 "root",
                 "root"
             );

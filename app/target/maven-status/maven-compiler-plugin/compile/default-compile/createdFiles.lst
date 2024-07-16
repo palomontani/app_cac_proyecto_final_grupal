@@ -3,3 +3,4 @@ com\cac\proyecto\Peliculas.class
 com\cac\proyecto\Usuarios.class
 com\cac\proyecto\Controladores.class
 com\cac\proyecto\CorsFilter.class
+com\cac\proyecto\Main.class
