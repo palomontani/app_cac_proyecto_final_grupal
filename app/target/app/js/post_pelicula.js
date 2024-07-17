@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             })
         };
         //realizo la peticion fetch a la api para agregar una pelicula
-        const response = await fetch('http://localhost:8080/apisimple/peliculas', options);
+        const response = await fetch('http://localhost:8080/app/peliculas', options);
         //obtengo la respuesta
         const data = await response.json();
         //si la respuesta es correcta, muestro un mensaje de exito y limpio los inputs del formulario

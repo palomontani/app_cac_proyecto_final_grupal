@@ -17,7 +17,7 @@ public class Conexion {
             this.connection = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/proyecto_app",
                 "root",
-                "root"
+                ""
             );
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

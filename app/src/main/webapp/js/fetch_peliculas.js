@@ -130,6 +130,3 @@ document.addEventListener('DOMContentLoaded', () => {
     fetchMoviesFlex();
 });
 
-
-
-
